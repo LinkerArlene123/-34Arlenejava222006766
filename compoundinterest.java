@@ -12,13 +12,13 @@ public class compoundinterest {
     
     public static void main(String[] args) {
         
-compoundinterest loan=new compoundinterest();
+        compoundinterest loan = new compoundinterest();
         double p = 500000.0;  // Initial loan amount in Rwandan Francs (RWF)
         double R = 18.0;  // Annual interest rate in percent
         int t = 3;  // Number of years
- double result=loan.given(p,R,t);
+        double result = loan.given(p,R,t);
 
- System.out.println("the compound interst of Mrbob is"+result);
+        System.out.println("the compound interst of Mrbob is"+result);
     }
 
     }

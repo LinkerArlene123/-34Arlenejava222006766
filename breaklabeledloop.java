@@ -1,7 +1,6 @@
 public class breaklabeledloop {
     public static void main(String[] args) {  
         //Using Label for outer and for loop  
-        aa:  
             for(int i=1;i<=3;i++){  
                 bb:  
                     for(int j=1;j<=3;j++){  
